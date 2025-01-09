@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <div class="form">
+    <form>
+        <label for="name">Enter your full name:</label>
+        <input type="text" id="name" name="name" required /><br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required /><br><br>
+
+        <label for="password">Enter your password:</label>
+        <input type="password" id="password" name="password" required/><br><br>
+        <input type="checkbox" id="checkbox" >Show Password</input><br><br>
+
+        <label for="Country">Choose your country:</label>
+
+        <select name="Country" id="Country">
+            <option value="india">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+            <option value="china">China</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <input type="submit" id="submit" value="submit">
+    </form>
+    </div>
+</body>
+</html>

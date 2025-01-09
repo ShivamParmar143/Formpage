@@ -1,0 +1,55 @@
+*{
+    background-color: beige;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+
+header{
+    background-color: azure;
+}
+
+header h1{
+    text-align: center;
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+}
+
+#name{
+    background-color: aliceblue;
+    color: black;
+    width: 300px;
+}
+
+#email{
+        background-color: aliceblue;
+        color: black;
+        width: 300px;
+}
+
+#password{
+    background-color: aliceblue;
+    color: black;
+    width: 200px;
+}
+
+
+
+#Country{
+    background-color: aliceblue;
+    color: black;
+    left: 500px;
+}
+
+#submit:hover{
+    background-color: coral;
+}
+
+input:focus{
+    border: 3px solid black;
+}
+
+
